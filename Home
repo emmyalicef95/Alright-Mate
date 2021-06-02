@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="styles.css">
+    <title>First Test for Alright, Pet?</title>
+  </head>
+  <body>
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #b0c4de;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="friends.jpg" alt="Friends"
+ <h1></h1>
+<img src="alrightmate.png" alt="Trulli" width="200" height="200">
+  <p> A safe space, free from judgement.</p>
+
+</div>
+
+<div class="topnav">
+<a href="file:///D:/Documents/Alright,%20Pet/Index.html">Home</a>
+  <a href="file:///D:/Documents/Alright,%20Pet/About%20Us.html">About Us</a>
+  <a href="file:///D:/Documents/Alright,%20Pet/Readothersexperiences.html">Read Other's Experiences</a>
+  <a href="file://D:/Documents/Alright,%20Pet/GetHelp.html">Get Help</a>
+</div>
+
+<div class="row">
+  <div class="column">
+   <h2>Coronavirus & it's impact on Mental Health</h2> 
+    <p>The old saying 'We're all in the same boat' has been used a lot during the pandemic. But the truth is, We aren't all in the same boat. We're on the same sea, riding the same waves, but we are definitely not on the same boat. Some people are paddling along just fine, whereas other people are sinking rapidly. Feeling anxious, scared or even depressed is nothing to be ashamed of. Just because your friends are coping, doesn't mean you have to.</p>
+  </div>
+  
+
+</div>
+
+</body>
+</html>
